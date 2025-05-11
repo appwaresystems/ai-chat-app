@@ -1,5 +1,7 @@
 // src/App.js
 import React, { useState, useEffect, useRef } from 'react';
+/* eslint-disable jsx-a11y/anchor-has-content */
+
 import {
   Box,
   TextField,
