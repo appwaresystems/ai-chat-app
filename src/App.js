@@ -54,7 +54,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [selectedModel, setSelectedModel] = useState(() => {
     // Load model from localStorage if available
-    return localStorage.getItem('lastUsedModel') || 'mistralai/mistral-7b-instruct:free';
+    return localStorage.getItem('lastUsedModel') || 'meta-llama/llama-4-maverick:free';
   });
   const messagesEndRef = useRef(null);
 
